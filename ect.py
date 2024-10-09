@@ -71,7 +71,7 @@ def line(image, point1, point2, color, timer):
     y = y1
     
     for v in range(steps + 1):
-        image2[y,x] = color 
+        image2[int(round(y)), int(round(x))] = color 
         x = x + Xincrement;
         y = y + Yincrement;
       
